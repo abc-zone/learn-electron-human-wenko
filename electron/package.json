@@ -1,26 +1,26 @@
 {
-  "name": "wenko",
-  "productName": "wenko",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "start": "electronmon .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
-  },
-  "devDependencies": {
-    "electron-builder": "^26.0.12",
-    "electronmon": "^2.0.3"
-  },
-  "build": {
-    "appId": "com.daijinru.wenko",
+    "name": "wenko",
     "productName": "wenko",
-    "files": [
-      "**/*"
-    ]
-  },
-  "dependencies": {
-    "electron": "^38.1.0",
-    "express": "^5.1.0"
-  }
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electronmon .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "devDependencies": {
+        "electron-builder": "^26.0.12",
+        "electronmon": "^2.0.3"
+    },
+    "build": {
+        "appId": "com.daijinru.wenko",
+        "productName": "wenko",
+        "files": [
+            "**/*"
+        ]
+    },
+    "dependencies": {
+        "electron": "^38.1.0",
+        "express": "^5.1.0"
+    }
 }
